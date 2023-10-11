@@ -132,7 +132,7 @@ public class Main {
 	public void deletePeople() {
 		viewPeople();
 		do {
-			System.out.print("\nInput footwear index to delete: ");
+			System.out.print("\nInput index to delete: ");
 			try {
 				delete = sc.nextInt();
 			}catch(Exception E) {
